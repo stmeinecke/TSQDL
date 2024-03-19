@@ -1,0 +1,13 @@
+# executable
+TSQDL
+
+out_TS
+out_TS_space_time.png
+allVarsTS
+
+bin/
+powerSpec/
+TS/
+
+.DS_Store
+.directory
