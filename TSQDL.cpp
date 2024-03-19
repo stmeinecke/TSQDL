@@ -159,7 +159,7 @@ int main(int argc, char* argv[]){
   
   auto outputToVector = [&](vars* X, unsigned long long int tn, unsigned long long int tn_final){
     if(tn >= tn_final - outTime_ntn){
-      outVec_GS.push_back(norm(X->EGS)*p.kappaGS*0.7242); //output in Watts --- used to be 3.0 for reasons of being lazy and not checking my own work
+      outVec_GS.push_back(norm(X->EGS)*p.kappaGS*0.7242); //output in Watts
       outVec_ES.push_back(norm(X->EES)*p.kappaES*0.7242);
       outVecComplex_GS.push_back(X->EGS);
 //       outVecComplex_ES.push_back(X->EES);
